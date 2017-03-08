@@ -8,7 +8,7 @@
 
 	<!--meta http-equiv="refresh" content="1"-->
 </head>
-<body>
+<body class="scroolbar" id="style-3">
 
 <div>
 	<nav id="nav-dflt">
