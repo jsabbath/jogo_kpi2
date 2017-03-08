@@ -1,0 +1,160 @@
+	* {
+	  padding: 0;
+	  margin: 0;	  
+	}
+
+	body {
+	  font: 18px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	  color: #333;
+	  height: 1000px;
+
+	  box-sizing: border-box;
+	  font-size: 96%;
+	}
+
+
+/*
+Navbar
+*/
+	
+	nav#nav-dflt{
+		margin: 0 auto;
+	}
+	nav#nav-dflt ul,#nav-dflt ul li{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center
+	}
+	#nav-dflt ul li a{
+		margin-left: -15px;
+		font-family: "Monotype Corsiva";
+		font-size: 27px
+	}
+	div nav ul li{
+		display: inline-block;
+	}
+	div nav ul li a{
+		color:white;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+	div nav,nav#nav-dflt{
+		width: 100%;
+		background-color: #840001;
+		padding: 7px 0px 7px 0px;
+
+	    position: fixed; /* Set the navbar to fixed position */
+	    top: 0; /* Position the navbar at the top of the page */
+	    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	}
+
+	div nav ul {
+		width: 100%;
+		margin: 0 auto;
+	}
+	div nav ul li{
+		background-color: #840001;
+		color:white;
+	}
+	ul li{
+		list-style: none;
+	}
+	li{
+		padding: 5px;
+	}
+
+
+	img#bnner-prncpl{
+	  padding-top: 40px;
+	  text-align: center;
+	  margin: 0 auto;
+
+	  background-color: #840000;
+	  width: 100%;
+	  max-width: 100%;
+	}
+
+	aside {
+	  float: left;
+	  overflow: hidden;
+
+	  position: relative;
+	}
+
+	aside div#current-src {
+	  top: 0;
+	  right: 0;
+	  position: absolute;
+	  float: right;
+
+	  font-size: .8em;
+	  color: #fff;
+	  background: #000;
+	  opacity: .7;
+	  padding: 12px 15px;
+	}
+
+
+/*
+Mensagem botton
+*/
+.icondown{
+  transform : rotate(180deg);
+  -moz-transform : rotate(180deg); /* Firefox */
+  -webkit-transform : rotate(180deg); /* Chrome - Safari */
+  -o-transform : rotate(180deg); /* Opera */
+}
+#buttoninfo{
+	color:white;
+	padding-bottom: 5px;
+}
+.buttonfloatbottom{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 0;
+    padding: 7px 25px 7px 25px;
+    overflow: hidden;
+    background-color: dodgerblue;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    cursor:pointer;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .15), 0 3px 1px -2px rgba(0, 0, 0, .20), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    border-radius: 3px 3px 0px 0px;
+}
+.buttonfloatbottom a{
+  color:white;
+  margin-bottom:-3px; 
+  right:0; 
+  margin-left:0px;
+}
+#info {
+    margin: 0;
+    
+    overflow: hidden;
+    
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+  
+    height: 320px;
+    width:270px;
+    
+    background-color: white;
+    border: solid 1px hsla(207, 90%, 54%, 0.5)
+    color:grey;
+    text-align: left;
+    
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .15), 0 3px 1px -2px rgba(0, 0, 0, .20), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  
+    display: none;
+}
+.cabezainfo{
+  background-color: dodgerblue; 
+  color:white; 
+  padding: 10px 15px 10px 15px; 
+  width:100%;
+  cursor:pointer;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .15), 0 3px 1px -2px rgba(0, 0, 0, .20), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
