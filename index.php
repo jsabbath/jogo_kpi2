@@ -16,11 +16,9 @@
   <!--
   Bloquear boton derecho
   -->
-  <script language="javascript">
-  <!-- Begin
-  document.oncontextmenu = function(){return <fa></fa>lse}
-  // End -->
-  </script>
+  <!--script language="javascript">
+    document.oncontextmenu = function(){return false}
+  </script-->
   <!--
   END Bloquear boton derecho-->
 </head>
@@ -56,28 +54,48 @@ Banner header
   <noscript>
   <img alt='Banner Floreria Kupidos' src='assets/img/Kp2-Tablet.png' /></noscript>
 </div>
-<!--
-cuerpo Kupi2
--->
-
+<!-- cuerpo Kupi2 -->
 <div class="container">
+<div>
+  <div class="sharethis-inline-share-buttons" style="padding: 10px 0px 7px 0px"></div>
+</div>
+
+  <div class="col-12" style=" ">
+      <div class="panel" style="text-align: center;padding: 50px 20px 40px 20px;">
+          <h1 style="font-family:'Monotype Corsiva';">Kupi2?</h1>
+          <p>
+            Florería kupi2 les da bienvenida a un mundo diferente, lleno de detalles, para poder expresar y a la vez trasmitir los verdaderos sentimientos y emociones a través de finos y bellos arreglos florales.
+          </p>
+          <br>
+          <div>
+            <button data-label="Saber Más">Saber Mas</button>
+          </div>
+          
+          <p style="display:none">
+            </br></br>
+            Contamos con un gran conocimiento y amplia experiencia en el rubro, teniendo entre nuestros trabajos todo tipo de arreglos florales. Contamos con las mejores flores del mercado, viniendo directamente de cultivos ubicados en Colombia y Holanda, donde son cortadas y enviadas a nuestro local, no antes garantizando que nuestras flores siempre sean frescas y puedan ofrecer una duración mucho mayor a la del promedio del mercado.
+          </p>
+          
+          <p style="display:none">
+            </br></br>
+            Nuestro objetivo, comprometernos a mantener el estilo, el detalle y la calidad de nuestros productos florales sin perder la confianza que nos encomiendan siempre, enviando ese mensaje tan especial para ustedes, llegando a su destino con puntualidad y seguridad, a lo cual hace posible trasmitir que todos logremos compartir los sentimientos y emociones a través de nosotros.
+          </p>
+        </div>
+  </div>
+
+
+  <div class="col-12" style=" ">
+      <div class="panel" style="text-align: center;padding: 50px 20px 40px 20px;">
+          <h1 style="font-family:'Monotype Corsiva';">Catalogo Kupi2</h1>
+      </div>
+  </div>
 
   <!--Categoría-->
   <div class="row">
     <div class="col-6">
 
-      <!--div class="panel"> Categorías</div-->
-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <div class="sharethis-inline-share-buttons"></div>
-      <div class="panel">
-          
-      </div>
+    <!--div class="panel"> Categorías</div-->
+        
     </div>
     <div class="col-6">
       <div class="panel">
@@ -92,6 +110,43 @@ cuerpo Kupi2
     <div class="col-4">
       <div class="panel"> 
         <div class="producto">
+          <div class="wrapper">        
+            <div class="card radius shadowDepth1">
+              <div class="card__image border-tlr-radius">
+                <img src="http://lorempixel.com/400/200/sports/" alt="image" class="border-tlr-radius">
+              </div>
+              <div class="card__content card__padding">
+                        <div class="card__share">
+                            <div class="card__social">  
+                                <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
+                                <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
+                                <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
+                            </div>
+
+                            <a id="share" class="share-toggle share-icon" href="#"></a>
+                        </div>
+
+                <article class="card__article">
+                  <h2><a href="#">Material Design Card</a></h2>
+
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
+                </article>
+              </div>
+
+              <div class="card__action">
+                <div class="card__author">
+                  <button data-label="Me gusta">Me gusta</button>
+                  <button  data-label="Detalles">Detalles</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="panel"> 
+        <div class="producto">
           
           <div class="wrapper">        
             <div class="card radius shadowDepth1">
@@ -119,7 +174,7 @@ cuerpo Kupi2
               <div class="card__action">
                 <div class="card__author">
                   <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
+                  <button  data-label="Detalles">Detalles</button>
                 </div>
               </div>
             </div>
@@ -158,7 +213,7 @@ cuerpo Kupi2
               <div class="card__action">
                 <div class="card__author">
                   <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
+                  <button  data-label="Detalles">Detalles</button>
                 </div>
               </div>
             </div>
@@ -197,7 +252,7 @@ cuerpo Kupi2
               <div class="card__action">
                 <div class="card__author">
                   <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
+                  <button  data-label="Detalles">Detalles</button>
                 </div>
               </div>
             </div>
@@ -236,7 +291,7 @@ cuerpo Kupi2
               <div class="card__action">
                 <div class="card__author">
                   <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
+                  <button data-label="Detalles">Detalles</button>
                 </div>
               </div>
             </div>
@@ -275,7 +330,7 @@ cuerpo Kupi2
               <div class="card__action">
                 <div class="card__author">
                   <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
+                  <button  data-label="Detalles">Detalles</button>
                 </div>
               </div>
             </div>
@@ -314,7 +369,7 @@ cuerpo Kupi2
               <div class="card__action">
                 <div class="card__author">
                   <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
+                  <button  data-label="Detalles">Detalles</button>
                 </div>
               </div>
             </div>
@@ -353,46 +408,7 @@ cuerpo Kupi2
               <div class="card__action">
                 <div class="card__author">
                   <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <div class="col-4">
-      <div class="panel"> 
-        <div class="producto">
-          
-          <div class="wrapper">        
-            <div class="card radius shadowDepth1">
-              <div class="card__image border-tlr-radius">
-                <img src="http://lorempixel.com/400/200/sports/" alt="image" class="border-tlr-radius">
-              </div>
-              <div class="card__content card__padding">
-                        <div class="card__share">
-                            <div class="card__social">  
-                                <a class="share-icon facebook" href="#"><span class="fa fa-facebook"></span></a>
-                                <a class="share-icon twitter" href="#"><span class="fa fa-twitter"></span></a>
-                                <a class="share-icon googleplus" href="#"><span class="fa fa-google-plus"></span></a>
-                            </div>
-
-                            <a id="share" class="share-toggle share-icon" href="#"></a>
-                        </div>
-
-                <article class="card__article">
-                  <h2><a href="#">Material Design Card</a></h2>
-
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum...</p>
-                </article>
-              </div>
-
-              <div class="card__action">
-                <div class="card__author">
-                  <button data-label="Me gusta">Me gusta</button>
-                  <button  data-label="Ver Detalles">Ver Detalles</button>
+                  <button  data-label="Detalles">Detalles</button>
                 </div>
               </div>
             </div>
@@ -403,76 +419,22 @@ cuerpo Kupi2
     </div>
   </div>
   <!--END Catalogo de Productos-->
+</div>
+<!-- END cuerpo Kupi2 -->
 
-  <div class="row">
-    <div class="col-4"><div class="panel"> Col 4</div></div>
-    <div class="col-4"><div class="panel"> Col 4</div></div>
-    <div class="col-4"><div class="panel"> Col 4</div></div>
-  </div>
-  <div class="row">
-    <div class="col-3"><div class="panel"> Col 3</div></div>
-    <div class="col-3"><div class="panel"> Col 3</div></div>
-    <div class="col-3"><div class="panel"> Col 3</div></div>
-    <div class="col-3"><div class="panel"> Col 3</div></div>
-  </div>
-  <div class="row">
-    <div class="col-2"><div class="panel"> Col 2</div></div>
-    <div class="col-2"><div class="panel"> Col 2</div></div>
-    <div class="col-2"><div class="panel"> Col 2</div></div>
-    <div class="col-2"><div class="panel"> Col 2</div></div>
-    <div class="col-2"><div class="panel"> Col 2</div></div>
-    <div class="col-2"><div class="panel"> Col 2</div></div>
-  </div>
-  <div class="row">
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-  </div>
-  <div class="row">
-    <div class="col-11"><div class="panel"> Col 11</div></div>
-    <div class="col-1"><div class="panel"> Col 1</div></div>
-  </div>
-  <div class="row">
-    <div class="col-10"><div class="panel"> Col 10</div></div>
-    <div class="col-2"><div class="panel"> Col 2</div></div>
-  </div>
-  <div class="row">
-    <div class="col-9"><div class="panel"> Col 9</div></div>
-    <div class="col-3"><div class="panel"> Col 3</div></div>
-  </div>
-  <div class="row">
-    <div class="col-8"><div class="panel"> Col 8</div></div>
-    <div class="col-4"><div class="panel"> Col 4</div></div>
-  </div>
-  <div class="row">
-    <div class="col-7"><div class="panel"> Col 7</div></div>
-    <div class="col-5"><div class="panel"> Col 5</div></div>
-  </div>
-  <div class="row">
-    <div class="col-6"><div class="panel"> Col 6</div></div>
-    <div class="col-3"><div class="panel"> Col 3</div></div>
-    <div class="col-3"><div class="panel"> Col 3</div></div>
-  </div>
+<!-- Footer -->
 
+<div class="container footer">
+  <div class="row">
+    <div class="col-4"><div class="panel"> Col 4</div></div>
+    <div class="col-4"><div class="panel"> Col 4</div></div>
+    <div class="col-4"><div class="panel"> Col 4</div></div>
+  </div>
 </div>
 
-<!--
-END cuerpo Kupi2
--->
+<!-- END Footer -->
 
 
-<!--
-	footer
--->
 <!--boton flotante pagamento-->
 <div class="buttonfloatbottom" onclick="myFunction1()">
     <p id="buttoninfo">Método de Pago 
@@ -549,10 +511,7 @@ END scrpt buttonfloat metodo pago
 
 
 
-<!--
-SCRIPT slow scrool
--->
-
+<!-- SCRIPT slow scrool -->
 <script type="text/javascript">
   /*
    *Ralentizar el scrooll vertical
@@ -582,15 +541,6 @@ SCRIPT slow scrool
    *END Ralentizar el scrooll vertical
    */
 
-  /*
-   *disqus
-   */
-  (function() { // DON'T EDIT BELOW THIS LINE
-  var d = document, s = d.createElement('script');
-  s.src = '//devhuayra-com.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-  })();
 
   /*
    * add y quitar clase al icono flotante
@@ -606,43 +556,31 @@ SCRIPT slow scrool
 
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-<!--
-END SCRIPT slow scrool
--->
+<!-- END SCRIPT slow scrool -->
 
 
 
-<!--
-Script facebook API
--->
-
-    </script>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=1396296787079032";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, "script", "facebook-jssdk"));
-    </script>
-
-<!--
-END Script facebook API
--->
+<!-- Script facebook API -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.8&appId=1396296787079032";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, "script", "facebook-jssdk"));
+</script>
+<!-- END Script facebook API -->
 
 
-<!-- 
-CARD Social media 
--->
+<!--  CARD Social media  -->
 <script type="text/javascript">
   $(document).ready(function($) {
 
@@ -654,7 +592,5 @@ CARD Social media
     
   });
 </script>
-<!--
-END Social media
--->
+<!-- END Social media -->
 </html>
